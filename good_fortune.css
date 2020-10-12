@@ -1,0 +1,110 @@
+/* Put your style information here! */
+/* quicksand-regular - latin */
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/quicksand-v21-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/quicksand-v21-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/quicksand-v21-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/quicksand-v21-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/quicksand-v21-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/quicksand-v21-latin-regular.svg#Quicksand') format('svg'); /* Legacy iOS */
+  }
+  
+body {
+    font-family: "Quicksand", sans-serif;
+    background-color: whitesmoke;
+}
+
+.bg_red {
+    background-color: #DC143C !important;
+}
+
+nav .navbar-nav li a{
+    color: white !important;
+
+}
+
+#overall {
+    margin-top:-2rem;
+}
+
+.top_background {
+    background-image: url("./grocery.jpg");
+    height: calc(50vh - 56px);
+    background-position: center;
+    background-size: cover;
+}
+
+.center {
+    text-align: center;
+}
+
+.project_item{
+    margin-right:1.4rem;
+}
+
+@media only screen and (max-width: 600px) {
+    #overall {
+        display:none !important;
+    }
+
+    .location_text{
+        width:100%;
+        margin-bottom:2rem;
+        height:14rem;
+    }
+    .location_image{
+        width:11rem;
+        height: 11rem;
+    }
+
+    .qr_code {
+        display: none !important;
+    }
+
+    .foot {
+        display: none !important;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .location_text{
+        height:14rem;
+        width:8rem;
+    }
+    .location_name {
+        height:4rem;
+        width:7rem;
+    }
+    .location_image{
+        width:8rem;
+        height: 11rem;
+    }
+} 
+@media only screen and (min-width: 992px) {
+    .location_text{
+        height:8rem;
+        width:15rem;
+    }
+    .location_name {
+        height:100%;
+        width:100%;
+    }
+    .location_image{
+        width:14rem;
+        height: 12rem;
+    }
+} 
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #f5f5f5;
+}
