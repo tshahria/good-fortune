@@ -46,7 +46,7 @@ nav .navbar-nav li a{
     margin-right:1.4rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     #overall {
         display:none !important;
     }
@@ -71,7 +71,7 @@ nav .navbar-nav li a{
 }
 
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 700px) {
     .location_text{
         height:14rem;
         width:8rem;
@@ -84,6 +84,12 @@ nav .navbar-nav li a{
         width:8rem;
         height: 11rem;
     }
+
+    .contact_data {
+        margin-left:0.7rem;
+    }
+
+
 } 
 @media only screen and (min-width: 992px) {
     .location_text{
@@ -98,6 +104,10 @@ nav .navbar-nav li a{
         width:14rem;
         height: 12rem;
     }
+    .contact_data {
+        margin-left:inherit;
+    }
+
 } 
 
 .footer {
